@@ -1,0 +1,304 @@
+body{
+    background-color: hsl(232, 19%, 15%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 30px;
+    
+}
+
+.top{
+    background-color: hsl(232, 19%, 15%);
+    padding-left: 80px;
+    padding-top: 10px;
+    width: 1500px;
+    height: 200px;
+    color: white;
+    box-sizing: border-box;
+    }
+.taggle{
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    color:white;
+}
+h4{
+    color:rgb(245, 234, 234);
+}
+.facebook{
+    
+    background-color: hsl(228, 28%, 20%);
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    border-top: 3px solid blue;
+    color: azure;
+} 
+ul li{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    margin: 2px;
+    list-style-type: none;
+}
+.twitter{
+    
+    background-color: hsl(228, 28%, 20%);
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    border-top: 3px solid blue;
+    color: azure;
+} 
+.instagram{
+    
+    background-color: hsl(228, 28%, 20%);
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    border-top: 3px solid red;
+    color: azure;
+} 
+
+.youtube{
+    
+    background-color:  hsl(228, 28%, 20%);
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    border-top: 3px solid red;
+    color: azure;
+    word-spacing: 4px;
+} 
+ 
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 190px;
+    padding-right: 150px;
+    gap: 30px;
+    position: absolute;
+    bottom: 270px;
+
+}
+.followers{
+    color: white;
+}
+.number{
+    font-size: 35px;
+    color: white;
+}
+.today{
+    color: green;
+    
+}
+h2{
+    position: absolute;
+    bottom: 210px;
+    left: 190px;
+    color: white;
+}
+.view{
+background-color: hsl(228, 28%, 20%);
+color: red;
+font-size: 13px;
+width: 250px;
+height: 110px;
+border-radius: 5px;;
+}
+.middle{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 110px;
+    left: 190px;
+    justify-content: space-between;
+    gap: 30px;
+}
+.pg{
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: absolute;
+    right: 1010px;
+    top: 2px;
+    font-size: 15px;
+}
+.l87{
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: absolute;
+    right: 1040px;
+    bottom: 10px;
+    font-size: 40px;   
+    color: white;
+}
+.l17{
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: absolute;
+    right: 1030px;
+    bottom: 10px;
+    font-size: 40px;   
+    color: white;
+}
+.l3{
+    color: green;
+    text-decoration: solid;
+    position: absolute;
+    bottom: 10px;
+    left: 190px;
+}
+.ficon{
+    position: absolute;
+    bottom:60px ;
+    left:190px ;
+}
+.likes1{
+    position: absolute;
+   color: gray;
+   top: 2px;
+}
+.l52{
+    position: absolute;
+    top: 40px;
+    font-size: 40px;
+    color: white;
+    stroke-opacity: 2px;
+}
+.l2{
+    position: absolute;
+    top: 60px;
+    left: 470px;
+    color: red;
+}
+.l2t{
+    position: absolute;
+    top: 60px;
+    left: 470px;
+    color: green; 
+}
+.ficon1{
+        position: absolute;
+        bottom:60px ;
+        left: 480px;
+}
+.ficon2{
+    position: absolute;
+    bottom:60px ;
+    left: 760px;
+}
+.l22{
+    position: absolute;
+    top: 60px;
+    left: 730px;
+    color:green;
+}
+    .l222{
+        position: absolute;
+        top: 60px;
+        left: 730px;
+        color: red;
+    }
+
+.ficon3{
+    position: absolute;
+    bottom:60px ;
+    left: 1040px;
+}
+.l23{
+    position: absolute;
+    top: 60px;
+    left: 1010px; 
+    color: green; 
+}
+.l233{
+    position: absolute;
+    top: 60px;
+    left: 1010px; 
+    color: red; 
+}
+.middle1{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 85%;
+    left: 190px;
+    justify-content: space-between;
+    gap: 30px;
+}
+.attribution{
+    position: absolute;
+    top: 120%;
+    font-size: 20px;
+    text-align: center;
+}
+.image{
+   gap: 70px;
+}
+.today1{
+    color: red;
+}
+#button{
+    background-color: aquamarine;
+    position: absolute;
+    top: 10%;
+    left: 110%;
+}
+
+
+/* light mode */
+
+body.lightMode{
+    background-color: whitesmoke;
+}
+
+body.lightMode .facebook{
+    background-color: white;
+}
+body.lightMode .twitter{
+    background-color:white;
+}
+
+body.lightMode .instagram{
+    background-color:white;
+}
+
+body.lightMode .youtube{
+    background-color:white;
+}
+body.lightMode .top{
+    background-color:white;
+}
+body.lightMode .view{
+    background-color:white;
+}
+body.lightMode .black{
+    color :black;
+}
+
+body.lightMode .number{
+    color :black;
+}
+
+
+body.lightMode .l52{
+    color :black;
+}
+
+body.lightMode .l87{
+    color :black;
+}
+
+body.lightMode .l17{
+    color :black;
+}
+@media (max-width 89)){
+    width: ;
+}
